@@ -1,0 +1,18 @@
+{
+  "name": "mjs-dirname",
+  "version": "1.0.0",
+  "main": "index.mjs",
+  "license": "MIT",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^8.2.1"
+  },
+  "scripts": {
+    "test": "mocha test",
+    "test:inspect": "mocha inspect test"
+  },
+  "volta": {
+    "node": "14.15.1",
+    "yarn": "1.22.10"
+  }
+}
